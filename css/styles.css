@@ -141,10 +141,6 @@ img {
 .contacts:focus,
 .address-contacts:hover,
 .address-contacts:focus {
-  font-family: var(--main-font-family);
-  font-weight: var(--main-font-weight);
-  font-size: 14px;
-  line-height: 1.14;
   color: var(--third-color);
 }
 
@@ -181,6 +177,8 @@ img {
   height: 600px;
   margin-right: auto;
   margin-left: auto;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .hero-title {
@@ -449,12 +447,13 @@ img {
   padding-right: 24px;
   padding-bottom: 20px;
 }
-.porfolio-card {
+.portfolio-card {
   border: 1px solid var(--border-header);
   width: 370px;
 }
-.porfolio-card:hover {
+.portfolio-card:hover {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
 }
 /*========================================= Footer ========================================= */
 .footer {
